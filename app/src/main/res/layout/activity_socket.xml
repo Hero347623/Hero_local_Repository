@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_marginTop="3dp"
+        android:textColor="#000000"
+        android:text="请求文本"
+        android:id="@+id/bt_requestText"
+        android:background="@drawable/reactan"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@drawable/reactan"
+        android:id="@+id/bt_request"
+        android:text="请求图片"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt_requestMedia"
+        android:text="请求音频"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/reactan"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="3dp"
+        android:id="@+id/bt_requestMovie"
+        android:text="请求视频"
+        android:background="@drawable/reactan"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
